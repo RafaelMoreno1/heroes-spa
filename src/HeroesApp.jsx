@@ -1,7 +1,9 @@
+import {AppRouter} from "./router/AppRouter.jsx";
+
 export const HeroesApp = () => {
     return (
     <>
-      <h1>Hello word</h1>
+     <AppRouter/>
     </>
   );
 }
